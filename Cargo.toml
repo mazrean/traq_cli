@@ -9,3 +9,4 @@ edition = "2018"
 [dependencies]
 openapi = { path = "generated" }
 tokio = { version = "0.2", features = ["full"] }
+clap = { git = "https://github.com/clap-rs/clap/" }
